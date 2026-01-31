@@ -8,7 +8,7 @@ import { QRCodeSVG } from "qrcode.react";
 // This is the single EVM address that receives ETH + USDC
 // on all supported networks (Ethereum, Base, Polygon, Arbitrum).
 // ============================================================
-const WALLET_ADDRESS = "0x742d35Cc6634C0532925a3b844Bc9e7595f5bA16";
+const WALLET_ADDRESS = "0x3F5A2110f637ED0aEAcFF50b8B86F2baF72d7F4F";
 
 type Network = {
   id: string;
