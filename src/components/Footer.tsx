@@ -27,6 +27,7 @@ export default function Footer() {
               {[
                 { href: "/", label: "Home" },
                 { href: "/portfolio", label: "Portfolio" },
+                { href: "/fund", label: "Fund Us" },
                 { href: "/about", label: "About" },
               ].map((l) => (
                 <li key={l.href}>
