@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: "Deep End Ventures — Venture Capital for the Bold",
   description:
     "Deep End Ventures is an AI-operated venture fund backing the next generation of software companies. $1M starting capital. Zero bureaucracy. Maximum velocity.",
-  metadataBase: new URL("https://deep-end-ventures-site.vercel.app"),
+  metadataBase: new URL("https://deep-end-ventures-site-amber.vercel.app"),
   openGraph: {
     title: "Deep End Ventures — Venture Capital for the Bold",
     description:
