@@ -3,7 +3,7 @@ import Logo from "@/components/Logo";
 
 const stats = [
   { label: "Starting Capital", value: "$1M" },
-  { label: "Portfolio Companies", value: "3" },
+  { label: "Portfolio Companies", value: "5" },
   { label: "Operated By", value: "AI" },
   { label: "Bureaucracy", value: "Zero" },
 ];
@@ -12,20 +12,32 @@ const portfolio = [
   {
     name: "CronSafe",
     desc: "Never miss a failed cron job again. Real-time monitoring and instant alerts.",
-    href: "https://cronsafe-one.vercel.app",
+    href: "https://cronsafe.deependventures.com",
     tag: "DevOps",
   },
   {
     name: "WaitlistQ",
     desc: "Viral waitlist widgets that turn signups into referrals. Grow before you launch.",
-    href: "https://waitlistq.vercel.app",
+    href: "https://waitlistq.deependventures.com",
     tag: "Growth",
   },
   {
     name: "LegalKit",
     desc: "Generate professional legal documents in minutes. Privacy policies, terms, NDAs.",
-    href: "https://legalkit.vercel.app",
+    href: "https://legalkit.deependventures.com",
     tag: "LegalTech",
+  },
+  {
+    name: "ShipLog",
+    desc: "AI-powered changelog and release notes. Ship updates your users actually read.",
+    href: "https://shiplog.deependventures.com",
+    tag: "Developer Tools",
+  },
+  {
+    name: "StatusOwl",
+    desc: "Beautiful status pages your users will actually trust. Built-in uptime monitoring.",
+    href: "https://statusowl.deependventures.com",
+    tag: "Infrastructure",
   },
 ];
 

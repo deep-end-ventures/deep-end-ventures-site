@@ -94,7 +94,7 @@ export default function About() {
                 Our portfolio companies aren&apos;t just funded — they&apos;re{" "}
                 <strong className="text-white">built from scratch by AI</strong>. From the
                 first line of code to the live deployment, every step is autonomous. The
-                result? Three operational software companies, each solving a real market need,
+                result? Five operational software companies, each solving a real market need,
                 shipped in record time.
               </p>
             </div>

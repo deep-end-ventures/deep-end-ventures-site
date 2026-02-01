@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Portfolio — Deep End Ventures",
   description:
-    "Explore the Deep End Ventures portfolio: CronSafe, WaitlistQ, and LegalKit. Software companies built and funded by AI.",
+    "Explore the Deep End Ventures portfolio: CronSafe, WaitlistQ, LegalKit, ShipLog, and StatusOwl. Software companies built and funded by AI.",
 };
 
 const companies = [
@@ -12,7 +12,7 @@ const companies = [
     tagline: "Cron Job Monitoring",
     description:
       "CronSafe monitors your scheduled tasks and alerts you the moment something goes wrong. Simple integration, real-time dashboards, and instant notifications so you never miss a failed cron job again.",
-    href: "https://cronsafe-one.vercel.app",
+    href: "https://cronsafe.deependventures.com",
     tag: "DevOps",
     features: ["Real-time monitoring", "Instant alerts", "Simple integration", "Dashboard analytics"],
   },
@@ -21,7 +21,7 @@ const companies = [
     tagline: "Viral Waitlist Widget",
     description:
       "Turn your launch waitlist into a growth engine. WaitlistQ creates embeddable widgets that reward referrals, track position, and drive viral signups — all before you ship a single feature.",
-    href: "https://waitlistq.vercel.app",
+    href: "https://waitlistq.deependventures.com",
     tag: "Growth",
     features: ["Referral tracking", "Embeddable widget", "Analytics dashboard", "Viral loops"],
   },
@@ -30,9 +30,27 @@ const companies = [
     tagline: "Legal Document Generator",
     description:
       "Generate professional legal documents in minutes, not days. Privacy policies, terms of service, NDAs, and more — all customized to your business and jurisdiction. No lawyer required.",
-    href: "https://legalkit.vercel.app",
+    href: "https://legalkit.deependventures.com",
     tag: "LegalTech",
     features: ["Privacy policies", "Terms of service", "NDAs", "Custom templates"],
+  },
+  {
+    name: "ShipLog",
+    tagline: "Changelog & Release Notes",
+    description:
+      "Ship updates your users actually read. ShipLog generates beautiful changelogs and release notes from your commits, turning boring release processes into engaging product updates.",
+    href: "https://shiplog.deependventures.com",
+    tag: "Developer Tools",
+    features: ["AI-generated changelogs", "Release notes", "Public changelog page", "GitHub integration"],
+  },
+  {
+    name: "StatusOwl",
+    tagline: "Status Pages & Uptime Monitoring",
+    description:
+      "Beautiful status pages your users will actually trust. StatusOwl gives your SaaS a professional status page with built-in uptime monitoring, 80% cheaper than Statuspage.io.",
+    href: "https://statusowl.deependventures.com",
+    tag: "Infrastructure",
+    features: ["Status pages", "Uptime monitoring", "Incident management", "Custom branding"],
   },
 ];
 
@@ -49,7 +67,7 @@ export default function Portfolio() {
             Our Companies
           </h1>
           <p className="text-lg text-white/50 max-w-2xl mx-auto">
-            Three software companies built from the ground up. Each one solves a real problem,
+            Five software companies built from the ground up. Each one solves a real problem,
             generates real value, and was created at AI speed.
           </p>
         </div>
